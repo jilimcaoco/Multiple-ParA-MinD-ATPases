@@ -1,0 +1,257 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags 
+core.init: Rosetta version: rosetta.source.release-247 r247 2020.08+release.cb1caba cb1cabafd7463ab703f6abf5efa33d2707b85924 https://www.rosettacommons.org 2020-02-22T18:49:33.865989
+core.init: command: /home/limcaoco/rosetta/rosetta3.12/main/source/bin/rosetta_scripts.default.linuxgccrelease -database /home/limcaoco/rosetta/rosetta3.12/main/database @ /home/limcaoco/ATPase_project/input_files/options/MTNLE_carboxysome_rmsd.options -in:file:silent /scratch/ave_root/ave0/limcaoco/flex_dock_MTNLE_carboxysome_11_17_2021/out_files/carboxysome_flex_dock_28828657_28.out -out:nstruct 1 -out:file:score_only /home/limcaoco/ATPase_project/output_files/rmsd/carboxysome_relax_29228201_1.sc
+basic.random.init_random_generator: 'RNG device' seed mode, using '/dev/urandom', seed=-643072635 seed_offset=0 real_seed=-643072635
+basic.random.init_random_generator: RandomGenerator:init: Normal mode, seed=-643072635 RG_type=mt19937
+core.io.silent.SilentFileData: Reading all structures from /scratch/ave_root/ave0/limcaoco/flex_dock_MTNLE_carboxysome_11_17_2021/out_files/carboxysome_flex_dock_28828657_28.out
+core.io.silent.SilentFileData: Finished reading 48 structures from /scratch/ave_root/ave0/limcaoco/flex_dock_MTNLE_carboxysome_11_17_2021/out_files/carboxysome_flex_dock_28828657_28.out
+core.chemical.GlobalResidueTypeSet: Finished initializing fa_standard residue type set.  Created 980 residue types
+core.chemical.GlobalResidueTypeSet: Total time to initialize 0.94 seconds.
+core.import_pose.import_pose: File '/home/limcaoco/ATPase_project/intermediate_files/reference_pdbs/MTNLE_pep_carboxysome_ref.pdb' automatically determined to be of type PDB
+protocols.evaluation.ChiWellRmsdEvaluatorCreator: Evaluation Creator active ... 
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Generating XML Schema for rosetta_scripts...
+protocols.rosetta_scripts.RosettaScriptsParser: ...done
+protocols.rosetta_scripts.RosettaScriptsParser: Initializing schema validator...
+protocols.rosetta_scripts.RosettaScriptsParser: ...done
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0203_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0203_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0204_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0204_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0205_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0205_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0206_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0206_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0207_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0207_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0208_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0208_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0209_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0209_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0210_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0210_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0211_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0211_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0212_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0212_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0213_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0213_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0214_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0214_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0215_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0215_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0216_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0216_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0217_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0217_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0218_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0218_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0219_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0219_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0220_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0220_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0221_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0221_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0222_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0222_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0223_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0223_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0224_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0224_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0225_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0225_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0226_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0226_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0227_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0227_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0228_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0228_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0229_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0229_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0230_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0230_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0231_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0231_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0232_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0232_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0233_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0233_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0234_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0234_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0235_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0235_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0236_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0236_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0237_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0237_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0238_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0238_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0239_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0239_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0240_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0240_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0241_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0241_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0242_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0242_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0243_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0243_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0244_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0244_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0245_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0245_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0246_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0246_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0247_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0247_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0248_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0248_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0249_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0249_0001
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'MTNLE_pep_carboxysome_28_28828657_0250_0001'
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: MTNLE_pep_carboxysome_28_28828657_0250_0001
+protocols.jd2.JobDistributor: no more batches to process... 
+protocols.jd2.JobDistributor: 48 jobs considered, 48 jobs attempted in 27 seconds

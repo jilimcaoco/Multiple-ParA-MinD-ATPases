@@ -1,0 +1,5 @@
+-parser:protocol /home/limcaoco/ATPase_project/input_files/rosettascripts/FlexScore.xml
+-score:weights ref2015
+-packing:ex1 True
+-packing:ex2aro True
+-overwrite

@@ -1,0 +1,2 @@
+-parser:protocol /home/limcaoco/ATPase_project/input_files/rosettascripts/RMSD.xml
+-in:file:native /home/limcaoco/ATPase_project/intermediate_files/reference_pdbs/MTNLE_pep_carboxysome_ref.pdb
