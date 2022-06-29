@@ -1,8 +1,0 @@
--parser:protocol /home/limcaoco/ATPase_project/input_files/rosettascripts/copy_flex_ddG.xml
--parser:script_vars filename=/home/limcaoco/ATPase_project/input_files/mut_resfiles/NATAA_MNVRA_pep_flagella_mut.txt 
--restore_talaris_behavior
--in:file:fullatom
--ignore_unrecognized_res
--ignore_zero_occupancy false
--ex1
--ex2
